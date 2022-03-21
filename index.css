@@ -1,0 +1,45 @@
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	width: 7em;
+}
+
+nav li {
+	position: relative;
+	list-style: none;
+	margin-bottom: 2px;
+  background: grey;
+}
+
+nav li:hover ul li{
+	background: #EBB !important;
+}
+
+nav ul ul li:hover ul li{
+	background: #DCC !important;
+}
+
+
+
+
+nav li  {
+	display: block;
+	padding: 0.25em 0 0.25em 0.5em;
+	text-decoration: none;
+	width: 6.5em;
+}
+
+
+
+nav ul ul {
+	position: absolute;
+	top: 0;
+	left: 7em;
+	display: none;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
